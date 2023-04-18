@@ -8,7 +8,7 @@
     <string name="close_button">close button</string>
     <string name="antivirus_icon">antivirus icon</string>
     <string name="antivirus">Antivirus</string>
-    <string name="details" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
     <string name="junk_files">Junk Files</string>
     <string name="notification_blocker">Notification Blocker</string>
     <string name="cache_cleaner">Cache Cleaner</string>
@@ -19,4 +19,8 @@
     <string name="toolbox">Toolbox</string>
     <string name="apps">Apps</string>
     <string name="more">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="memory_used">Memory Used</string>
+    <string name="storage_used">Storage Used</string>
 </resources>

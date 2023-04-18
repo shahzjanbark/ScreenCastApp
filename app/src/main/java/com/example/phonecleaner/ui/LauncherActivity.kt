@@ -38,7 +38,7 @@ class LauncherActivity : AppCompatActivity() {
     }
 
     private fun gotoNextActivity() {
-        val i = Intent(this, Screen1Activity::class.java)
+        val i = Intent(this, MainActivity::class.java)
         startActivity(i)
         finish()
     }

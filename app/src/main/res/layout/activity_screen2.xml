@@ -38,7 +38,7 @@
         android:layout_marginStart="@dimen/_32sdp"
         android:text="@string/junk_files"
         android:textSize="@dimen/_18ssp"
-        android:fontFamily="@font/nunito_sans"
+        android:fontFamily="@font/open_sans"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:layout_marginTop="@dimen/_24sdp"
@@ -55,7 +55,7 @@
         android:layout_marginEnd="@dimen/_16sdp"
         android:text="@string/details"
         android:textSize="@dimen/_14ssp"
-        android:fontFamily="@font/nunito_sans"
+        android:fontFamily="@font/open_sans"
         android:textColor="@color/black"
         android:layout_marginTop="@dimen/_8sdp"
         />
@@ -88,7 +88,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:textColor="@color/white"
             android:textSize="@dimen/_14ssp"
-            android:fontFamily="@font/nunito_sans_semibold"
+            android:fontFamily="@font/open_sans_bold"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
