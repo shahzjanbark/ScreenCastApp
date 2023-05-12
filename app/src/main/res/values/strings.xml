@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">PhoneCleaner</string>
     <string name="splash_screen">Splash Screen</string>
-    <string name="phone_cleaner">Phone Cleaner</string>
     <string name="privacy_text">By clicking start, you agree to the terms stated in \nnour <a href="https://www.google.com/">User Agreement</a> and <a href="https://www.google.com/">Privacy Policy</a>.Checkout\n <a href="https://www.google.com/">Information</a> <a href="https://www.google.com/">Collection Notice</a>.</string>
     <string name="agree_start">AGREE &amp; START</string>
+    <string name="phone_cleaner">Phone Cleaner</string>
     <string name="agree_and_start">agree and start</string>
     <string name="close_button">close button</string>
     <string name="antivirus_icon">antivirus icon</string>
@@ -19,8 +19,11 @@
     <string name="toolbox">Toolbox</string>
     <string name="apps">Apps</string>
     <string name="more">More</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="memory_used">Memory Used</string>
     <string name="storage_used">Storage Used</string>
+    <string name="clean_now">Clean Now</string>
+    <string name="phone_boost_now">Boost Now</string>
+    <string name="cool_now">Cool Now</string>
+    <string name="scan">Scan</string>
 </resources>

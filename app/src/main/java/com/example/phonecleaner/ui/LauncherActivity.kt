@@ -31,7 +31,7 @@ class LauncherActivity : AppCompatActivity() {
                 progressCircleDeterminate.visibility = View.VISIBLE
             }
 
-            delay(5000)
+            delay(1000)
             gotoNextActivity()
         }
 

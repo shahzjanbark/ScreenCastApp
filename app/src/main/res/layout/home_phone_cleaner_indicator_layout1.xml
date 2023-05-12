@@ -4,28 +4,49 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/phone_cleaner"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="@dimen/_18ssp"
-        android:textColor="@color/black"
-        android:fontFamily="@font/open_sans"
-        android:layout_margin="@dimen/_16sdp"
-        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/progressContainer"
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_100sdp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="@dimen/_16sdp"
-        />
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/brush"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/circle1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/circle2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/app_name"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:id="@+id/percentageContainer"
@@ -34,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/progressContainer"
         android:weightSum="2"
         android:gravity="center"
-        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_16sdp"
         android:baselineAligned="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -157,8 +178,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/boostBtn"
-        android:layout_width="@dimen/_160sdp"
-        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_35sdp"
         app:layout_constraintTop_toBottomOf="@+id/percentageContainer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,10 +189,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone Boost Now"
-            android:textSize="@dimen/_15ssp"
+            android:text="@string/phone_boost_now"
+            android:textSize="@dimen/_12ssp"
             android:textColor="@color/white"
-            android:fontFamily="@font/open_sans_semibold"
+            android:fontFamily="@font/open_sans_bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

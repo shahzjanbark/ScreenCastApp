@@ -3,8 +3,8 @@ package com.example.phonecleaner.adapter
 import android.content.Context
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.phonecleaner.data.HomeOptions
@@ -16,7 +16,9 @@ class HomePageOptionAdapter(val context : Context, val list : List<HomeOptions>)
 
 
     class MyViewHolder(itemView: HomeItemRecyclerviewBinding) : ViewHolder(itemView.root) {
-
+        val catTitleTv = itemView.catTitleTv
+        val catIV = itemView.catIV
+        val catDescTv = itemView.catDescTv
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -32,8 +34,9 @@ class HomePageOptionAdapter(val context : Context, val list : List<HomeOptions>)
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         with(holder){
             with(list[position]){
-                Log.e("Title", "title: ${this.title}")
-                Log.e("Title", "description: ${this.description}")
+               holder.catTitleTv.text = this.title
+               holder.catIV.setImageDrawable(ResourcesCompat.getDrawable(context.resources, this.icon, null))
+               holder.catDescTv.text = this.description
             }
         }
 
